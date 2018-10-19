@@ -8,20 +8,20 @@
 public class Movie
 {
     // instance variables - replace the example below with your own
-    private int RottenTomatos;
-    private String name;
+    private int rating;
+    private String title;
     private int duration;
     private int mins;
     private int hours;
-    private String d;
-    private String e;
-    private int m;
-    private int h;
+    private String hourString;
+    private String minString;
+    private int inttostringm;
+    private int inttostringh;
     public Movie()
     {
         // initialise instance variables
-        RottenTomatos = 0;
-        name = "";
+        rating = 0;
+        title = "";
         duration = 0;
     }
     //duration
@@ -29,24 +29,24 @@ public class Movie
          duration = duration2;
     }
     public String getDuration() {
-        h = duration / 60;
-        m = duration % 60;
-        d = Integer.toString(h);
-        e = Integer.toString(m);
-        return d + ":" + e;
+        inttostringh = duration / 60;
+        inttostringm = duration % 60;
+        hourString = Integer.toString(inttostringh);
+        minString = Integer.toString(inttostringm);
+        return hourString + ":" + minString;
     }
-    //name 
-    public void setName(String name2) {
-        name = name2;
+    //titile
+    public void setTitle(String title2) {
+        title = title2;
     }
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
-    //rotten tomaots
-    public void setRottenTomatos(int RottenTomatos2) {
-        RottenTomatos = RottenTomatos2;
+    //rating
+    public void setRating(int rating2) {
+        rating = rating2;
     }
-    public int getRottenTomatos() {
-        return RottenTomatos;
+    public int getRating() {
+        return rating;
     }
 }

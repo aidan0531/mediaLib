@@ -8,12 +8,12 @@
 public class Book
 {
     // instance variables - replace the example below with your own
-    private int Stars;
+    private int rating;
     private String Title;
     public Book()
     {
         // initialise instance variables
-        Stars = 0;
+        rating = 0;
         Title = "";
     }
     //title
@@ -24,10 +24,10 @@ public class Book
         return Title;
     }
     //stars
-    public void setStars(int Stars2) {
-        Stars = Stars2;
+    public void setRating(int rating2) {
+        rating = rating2;
     }
-    public int getStars() {
-        return Stars;
+    public int getRating() {
+        return rating;
     }
 }
