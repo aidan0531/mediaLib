@@ -29,33 +29,33 @@ public class Song
         this.rating = rating;
         numSongs = numSongs + 1;
     }
-    public int getNumSongs() {
-        return numSongs;
-    }
-    // title
+    //setters
     public void setTitle(String title2) {
         title = title2;
     }
-    public String getTitle() {
-        return title;
-    }
-    // rating
-    public void setRating(int rating2) {
+        public void setRating(int rating2) {
         rating = rating2;
-    }
-    public int getRating() {
-        return rating;
     }
     public void setPrice(Double price2)
     {
         price = price2;
     }
+    public void addToFavorites() {
+        favorite = true;
+    }
+    //getters
+    public int getNumSongs() {
+        return numSongs;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public int getRating() {
+        return rating;
+    }
     public Double getPrice()
     {
         return price;
-    }
-    public void addToFavorites() {
-        favorite = true;
     }
     
 }

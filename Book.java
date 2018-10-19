@@ -16,16 +16,16 @@ public class Book
         rating = 0;
         Title = "";
     }
-    //title
+    //setters
     public void setTitle(String title2) {
         Title = title2;
     }
-    public String getTitle() {
-        return Title;
-    }
-    //stars
     public void setRating(int rating2) {
         rating = rating2;
+    }
+    //getters
+    public String getTitle() {
+        return Title;
     }
     public int getRating() {
         return rating;

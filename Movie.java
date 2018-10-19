@@ -24,10 +24,17 @@ public class Movie
         title = "";
         duration = 0;
     }
-    //duration
+    //setters
     public void setDuration(int duration2) {
          duration = duration2;
     }
+    public void setRating(int rating2) {
+        rating = rating2;
+    }
+    public void setTitle(String title2) {
+        title = title2;
+    }
+    //getters
     public String getDuration() {
         inttostringh = duration / 60;
         inttostringm = duration % 60;
@@ -35,16 +42,8 @@ public class Movie
         minString = Integer.toString(inttostringm);
         return hourString + ":" + minString;
     }
-    //titile
-    public void setTitle(String title2) {
-        title = title2;
-    }
     public String getTitle() {
         return title;
-    }
-    //rating
-    public void setRating(int rating2) {
-        rating = rating2;
     }
     public int getRating() {
         return rating;

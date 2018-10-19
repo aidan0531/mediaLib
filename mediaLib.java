@@ -17,21 +17,18 @@ public class mediaLib
         System.out.println(song1.getTitle());
         System.out.println(song1.getPrice());
         System.out.println(song1.getRating());
-        System.out.println("");
         
         //song 2
         Song song2 = new Song("running in the 90s",.99,10);
         System.out.println(song2.getTitle());
         System.out.println(song2.getPrice());
         System.out.println(song2.getRating());
-        System.out.println("");
         
         //song 3
         Song song3 = new Song("nemo",3.59,16);
         System.out.println(song3.getTitle());
         System.out.println(song3.getPrice());
         System.out.println(song3.getRating());
-        System.out.println("");
         
         //math
         System.out.println(song3.getNumSongs() + song1.getNumSongs() + song2.getNumSongs());
