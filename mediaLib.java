@@ -13,19 +13,19 @@ public class mediaLib
         
         
         //song 1
-        Song song1 = new Song("taste",5.0,1);
+        Song song1 = new Song("blob",9.0,3);
         System.out.println(song1.getTitle());
         System.out.println(song1.getPrice());
         System.out.println(song1.getRating());
         
         //song 2
-        Song song2 = new Song("running in the 90s",.99,10);
+        Song song2 = new Song("bob the builder",.73,1);
         System.out.println(song2.getTitle());
         System.out.println(song2.getPrice());
         System.out.println(song2.getRating());
         
         //song 3
-        Song song3 = new Song("nemo",3.59,16);
+        Song song3 = new Song("maybe",7.69,16);
         System.out.println(song3.getTitle());
         System.out.println(song3.getPrice());
         System.out.println(song3.getRating());
@@ -39,7 +39,7 @@ public class mediaLib
     
         //movie 1
         Movie movie1 = new Movie();
-        movie1.setTitle("baby driver");
+        movie1.setTitle("knox college");
         System.out.println(movie1.getTitle());
         movie1.setRating(66);
         System.out.println(movie1.getRating());
@@ -48,7 +48,7 @@ public class mediaLib
         
         //book 1
         Book book1 = new Book();
-        book1.setTitle("to kill a mociking bird");
+        book1.setTitle("50 shards of black");
         System.out.println(book1.getTitle());
         book1.setRating(2);
         System.out.println(book1.getRating());
