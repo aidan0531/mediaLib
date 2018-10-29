@@ -39,7 +39,7 @@ public class mediaLib
     
         //movie 1
         Movie movie1 = new Movie();
-        movie1.setTitle("knox college");
+        movie1.setTitle("knox");
         System.out.println(movie1.getTitle());
         movie1.setRating(66);
         System.out.println(movie1.getRating());
