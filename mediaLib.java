@@ -48,7 +48,7 @@ public class mediaLib
         
         //book 1
         Book book1 = new Book();
-        book1.setTitle("50 shards of black");
+        book1.setTitle("yellow");
         System.out.println(book1.getTitle());
         book1.setRating(2);
         System.out.println(book1.getRating());
