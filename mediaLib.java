@@ -13,7 +13,7 @@ public class mediaLib
         
         
         //song 1
-        Song song1 = new Song("purp",9.0,3);
+        Song song1 = new Song("curry",9.0,3);
         System.out.println(song1.getTitle());
         System.out.println(song1.getPrice());
         System.out.println(song1.getRating());
