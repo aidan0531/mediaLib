@@ -25,7 +25,7 @@ public class mediaLib
         System.out.println(song2.getRating());
         
         //song 3
-        Song song3 = new Song("maybe",7.69,16);
+        Song song3 = new Song("socks",7.69,16);
         System.out.println(song3.getTitle());
         System.out.println(song3.getPrice());
         System.out.println(song3.getRating());
